@@ -82,11 +82,12 @@ body {
 }
 
 .masthead .masthead-content .input-group-newsletter button {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 1rem;
+  border-radius: 0;
 }
 
 @media (min-width: 768px) {

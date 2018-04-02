@@ -3,6 +3,7 @@
   overflow: hidden;
   padding-bottom: 3rem;
   color: $black;
+
   .masthead-bg {
     position: absolute;
     top: 0;
@@ -16,6 +17,7 @@
     transform: skewY(4deg);
     transform-origin: bottom right;
   }
+
   .masthead-content {
     h1 {
       color: $black;
@@ -36,11 +38,12 @@
         padding: 1rem;
       }
       button {
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 1px;
         padding: 1rem;
+        border-radius: 0;
       }
     }
   }
