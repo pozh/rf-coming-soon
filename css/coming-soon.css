@@ -16,8 +16,8 @@ body {
   height: 100%;
   min-height: 35rem;
   position: relative;
-  font-family: 'Source Sans Pro';
-  font-weight: 300;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 .overlay {
@@ -25,7 +25,7 @@ body {
   height: 100%;
   min-height: 35rem;
   width: 100%;
-  background-color: #cd9557;
+  background-color: #ED6F67;
   opacity: 0.75;
   z-index: -1;
 }
@@ -40,6 +40,7 @@ body {
   position: relative;
   overflow: hidden;
   padding-bottom: 3rem;
+  color: #333;
 }
 
 .masthead .masthead-bg {
@@ -51,21 +52,28 @@ body {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color: #f8f7f4;
   transform: skewY(4deg);
   transform-origin: bottom right;
 }
 
 .masthead .masthead-content h1 {
+  color: #333;
   font-size: 2.5rem;
 }
 
 .masthead .masthead-content p {
+  color: #333;
   font-size: 1.2rem;
 }
 
 .masthead .masthead-content p strong {
   font-weight: 700;
+}
+
+.masthead .masthead-content p.text-small {
+  font-size: .95em;
+  opacity: .7;
 }
 
 .masthead .masthead-content .input-group-newsletter input {
@@ -125,8 +133,8 @@ body {
 
 .social-icons ul > li > a {
   display: block;
-  color: white;
-  background-color: rgba(0, 46, 102, 0.8);
+  color: #333;
+  background-color: rgba(248, 247, 244, 0.8);
   border-radius: 100%;
   font-size: 2rem;
   line-height: 4rem;
@@ -163,20 +171,20 @@ body {
     width: 4rem;
   }
   .social-icons ul > li > a:hover {
-    background-color: #002E66;
+    background-color: #f8f7f4;
   }
 }
 
 .btn-secondary {
-  background-color: #cd9557;
-  border-color: #cd9557;
+  background-color: #ED6F67;
+  border-color: #ED6F67;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #ba7c37 !important;
-  border-color: #ba7c37 !important;
+  background-color: #e84439 !important;
+  border-color: #e84439 !important;
 }
 
 .input {
-  font-weight: 300 !important;
+  font-weight: 400 !important;
 }

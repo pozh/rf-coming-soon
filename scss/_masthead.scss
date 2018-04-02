@@ -2,6 +2,7 @@
   position: relative;
   overflow: hidden;
   padding-bottom: 3rem;
+  color: $black;
   .masthead-bg {
     position: absolute;
     top: 0;
@@ -11,19 +12,23 @@
     width: 100%;
     min-height: 35rem;
     height: 100%;
-    background-color: fade-out($primary, 0.2);
+    background-color: fade-out($primary, 0);
     transform: skewY(4deg);
     transform-origin: bottom right;
   }
   .masthead-content {
     h1 {
+      color: $black;
       font-size: 2.5rem;
     }
     p {
+      color: $black;
       font-size: 1.2rem;
       strong {
         font-weight: 700;
       }
+
+      &.text-small { font-size: .95em; opacity: .7;}
     }
     .input-group-newsletter {
       input {

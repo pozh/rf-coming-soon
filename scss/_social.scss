@@ -12,7 +12,7 @@
       display: inline-block;
       > a {
         display: block;
-        color: white;
+        color: $black;
         background-color: fade-out($primary, 0.2);
         border-radius: 100%;
         font-size: 2rem;
