@@ -115,7 +115,7 @@ gulp.task('img', function () {
 
 
 // video
-gulp.task('mp4', function () {
+gulp.task('video', function () {
   return gulp.src([
     './src/mp4/*.*'
   ])
@@ -137,7 +137,7 @@ gulp.task('browserSync', function() {
 
 
 // Dev task
-gulp.task('dev', ['css', 'js', 'html', 'browserSync'], function() {
+gulp.task('dev', ['css', 'js', 'html', 'img', 'video', 'browserSync'], function() {
   gulp.watch('./scss/*.scss', ['css']);
   gulp.watch('./js/*.js', ['js']);
   gulp.watch('./*.html', browserSync.reload);
