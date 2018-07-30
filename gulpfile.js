@@ -105,9 +105,25 @@ gulp.task('html', function () {
     .pipe(browserSync.stream());
 });
 
+// images
+gulp.task('img', function () {
+  return gulp.src([
+    './src/img/*.*'
+  ])
+    .pipe(gulp.dest('./dist/img'));
+});
+
+
+// video
+gulp.task('mp4', function () {
+  return gulp.src([
+    './src/mp4/*.*'
+  ])
+    .pipe(gulp.dest('./dist/mp4'));
+});
 
 // Default task
-gulp.task('default', ['css', 'js', 'vendor', 'html']);
+gulp.task('default', ['css', 'js', 'img', 'video', 'vendor', 'html']);
 
 
 // Configure the browserSync task
